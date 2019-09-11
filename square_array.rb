@@ -1,11 +1,7 @@
 def square_array(array)
-  new_array = []
-  counter = 0 
-  array.each do|number|
-    new_array<<#{number}**2
-    counter +=1
-    return new_array
-  end
+  arr = []
+  array.each { |i| arr << i ** 2 }
+  arr
 end
   
   
