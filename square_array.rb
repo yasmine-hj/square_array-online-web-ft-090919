@@ -2,7 +2,7 @@ def square_array(array)
   new_array = []
   counter = 0 
   array.each do |number|
-    new_array<< k#{number}**2
+    new_array<<#{number}**2
     counter +=1
     return new_array
   end
